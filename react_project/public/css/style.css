@@ -1,0 +1,94 @@
+html, body, #root {
+    height: 100%;
+    /* font-size: 20px; */
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+footer.page-footer{
+    flex-shrink: 0;
+}
+.hide {
+    display: none;
+}
+
+.navbar {
+    padding: .5rem;
+}
+
+footer {
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.text {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+
+.button-list {
+    list-style-type: none;
+}
+
+.button-list li {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.active {
+    color: red;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+.input-group>.form-control, .input-group>.form-select {
+    position: relative;
+    flex: 0;
+    width: 1%;
+    min-width: 50%;
+
+}
+.input-div {
+    padding-left: 19%;
+    margin-top: 5%;
+}
+.create-div {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.textarea-btn {
+    margin-top: 5px;
+}
+.about {
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.one-more-note {
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
